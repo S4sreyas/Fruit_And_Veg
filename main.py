@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-import tensorflow as tf
 from tensorflow.keras.applications.inception_v3 import InceptionV3, preprocess_input, decode_predictions
 from tensorflow.keras.preprocessing import image
 
