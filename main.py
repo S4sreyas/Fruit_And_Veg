@@ -32,7 +32,7 @@ def predict_food(img):
 
 
 # Streamlit UI
-st.title("Food Image Classifier")
+st.title("Fruit And Vegetable Recognition And Calorie Estimation")
 
 # File uploader widget to allow users to upload an image
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
